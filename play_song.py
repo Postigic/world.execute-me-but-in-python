@@ -112,8 +112,8 @@ def slow_print(text: str, speed):
 
 
 def print_lyrics(audio_file_path, styles):
-    wav_data, sample_rate = librosa.load(audio_file_path)
-    tempo, beat_times = librosa.beat.beat_track(y=wav_data, sr=sample_rate)
+    audio_data, sample_rate = librosa.load(audio_file_path)
+    tempo, beat_times = librosa.beat.beat_track(y=audio_data, sr=sample_rate)
     beat_times = librosa.frames_to_time(beat_times, sr=sample_rate)
 
     lyrics_to_print = []
@@ -160,7 +160,7 @@ def handle_visuals(current_time):
 
 
 if __name__ == '__main__':
-    audio_file_path = r"D:\vs code projects\world.execute(me);\world-execute-me.wav"
+    audio_file_path = r"D:\vs code projects\world.execute(me);\world-execute-me.mp3"
     styles = [style.RED] * len(transcript)
 
     for index, color in indices_styles.items():
