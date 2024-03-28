@@ -250,7 +250,6 @@ functions_to_execute = deque([(lay_down, 3.874),
                               (execute, 192.2),
                               ])
 
-
 indices_styles = {
     2: style.RED_BOLD,
     5: style.GREEN_BOLD,
