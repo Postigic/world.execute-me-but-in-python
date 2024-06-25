@@ -1,5 +1,5 @@
 # world.execute-me-but-in-python
-hrrrggg grrr turned song into little funny program that sync lyric and audio and then funny yippee visuals!!!
+hrrrggg grrr turned song into little funny program that sync lyric and audio and then funny yippee visuals!!! (looking at this trainwreck code, there's so much wrong but at this point i can't be bothered)
 <br>
 <br>
 original idea by AlipDotPY
